@@ -1,7 +1,7 @@
 import express from "express";
-import booksRouter from "../router/booksRouter";
-import { errorHandler } from "../middleware/errorHandler";
-import ErrorHandler from "../utils/ErrorHandler";
+import booksRouter from "../src/router/booksRouter";
+import { errorHandler } from "../src/middleware/errorHandler";
+import ErrorHandler from "../src/utils/ErrorHandler";
 import cors from "cors";
 
 const app = express();
